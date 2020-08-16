@@ -7,7 +7,6 @@ sections:
 - type: document
   path: teste
   label: teste
-  match: "**/*"
 - type: jekyll-posts
   label: Posts
   create: all
