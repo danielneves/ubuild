@@ -5,12 +5,16 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
-  path: FORESTRY-README.md
-  label: Welcome - First Steps
-  read_only: true
+  path: teste
+  label: teste
+  match: "**/*"
 - type: jekyll-posts
   label: Posts
   create: all
+- type: document
+  path: FORESTRY-README.md
+  label: Welcome - First Steps
+  read_only: true
 - type: directory
   path: ''
   label: Pages
